@@ -10,7 +10,7 @@ public class PengelompokanHuruf {
                 "Untuk",
                 "Dampak",
                 "Berarti"
-        }; // Expected output: "aenrktiBDPTUdimu"
+        }; // Expected output: "aenrktipBDPTUdmosu"
 
         System.out.println(kelompokan(case1));
         System.out.println(kelompokan(case2));
@@ -35,7 +35,7 @@ public class PengelompokanHuruf {
             }
         }
 
-        // Buatkan list baru yang berisi entrySet dari unsortedMap agar bisa menggunakan method.sort()
+        // Membuat ArrayList baru yang berisi entrySet dari unsortedMap agar bisa menggunakan method.sort()
         List<Map.Entry<Character, Integer>> sortedList = new ArrayList<>(unsortedMap.entrySet());
 
         sortedList.sort((a, b) -> {
